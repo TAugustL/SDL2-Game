@@ -258,9 +258,6 @@ fn main() -> Result<(), String> {
             } else {
                 println!("Game over! Score: {score} | High Score: {HIGH_SCORE}");
             }
-            if score == u32::MAX - 1 {
-                println!("https://www.youtube.com/watch?v=6e6RK8o1fcs&t=1s");
-            }
             break;
         }
         let rounded_time: f32 = format!("{:.2}", game_countdown).trim().parse().unwrap();
